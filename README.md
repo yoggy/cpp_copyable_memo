@@ -5,9 +5,9 @@ cpp_copyable_memo
 <pre>
 class Copyable {
 public:
-	Person();
-	Person(const Person &obj);
-	Person& operator=(const Person &obj) 
+	Copyable();
+	Copyable(const Copyable &obj);
+	Copyable& operator=(const Copyable &obj) 
     ・
     ・
     ・
